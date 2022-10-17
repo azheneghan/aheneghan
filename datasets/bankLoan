@@ -1,0 +1,10 @@
+loan01 = read.csv("https://pengdsci.github.io/datasets/w06-SBAnational01.csv", header = TRUE)[, -1]
+loan02 = read.csv("https://pengdsci.github.io/datasets/w06-SBAnational02.csv", header = TRUE)[, -1]
+loan03 = read.csv("https://pengdsci.github.io/datasets/w06-SBAnational03.csv", header = TRUE)[, -1]
+loan04 = read.csv("https://pengdsci.github.io/datasets/w06-SBAnational04.csv", header = TRUE)[, -1]
+loan05 = read.csv("https://pengdsci.github.io/datasets/w06-SBAnational05.csv", header = TRUE)[, -1]
+loan06 = read.csv("https://pengdsci.github.io/datasets/w06-SBAnational06.csv", header = TRUE)[, -1]
+loan07 = read.csv("https://pengdsci.github.io/datasets/w06-SBAnational07.csv", header = TRUE)[, -1]
+loan08 = read.csv("https://pengdsci.github.io/datasets/w06-SBAnational08.csv", header = TRUE)[, -1]
+loan09 = read.csv("https://pengdsci.github.io/datasets/w06-SBAnational09.csv", header = TRUE)[, -1]
+bankLoan = rbind(loan01, loan02, loan03, loan04, loan05, loan06, loan07, loan08, loan09)
